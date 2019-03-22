@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		D52CC6DB2244902A009389C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52CC6DA2244902A009389C7 /* AppDelegate.swift */; };
-		D52CC6DD2244902A009389C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52CC6DC2244902A009389C7 /* ViewController.swift */; };
 		D52CC6E02244902A009389C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52CC6DE2244902A009389C7 /* Main.storyboard */; };
 		D52CC6E22244902B009389C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D52CC6E12244902B009389C7 /* Assets.xcassets */; };
 		D52CC6E52244902B009389C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D52CC6E32244902B009389C7 /* LaunchScreen.storyboard */; };
 		D52CC6F02244902B009389C7 /* Color_PickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52CC6EF2244902B009389C7 /* Color_PickerTests.swift */; };
 		D52CC6FB2244902B009389C7 /* Color_PickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52CC6FA2244902B009389C7 /* Color_PickerUITests.swift */; };
+		D52CC70922449217009389C7 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D52CC70822449217009389C7 /* ColorPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		D52CC6D72244902A009389C7 /* Color Picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Color Picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52CC6DA2244902A009389C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D52CC6DC2244902A009389C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D52CC6DF2244902A009389C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D52CC6E12244902B009389C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D52CC6E42244902B009389C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		D52CC6F62244902B009389C7 /* Color PickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Color PickerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D52CC6FA2244902B009389C7 /* Color_PickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color_PickerUITests.swift; sourceTree = "<group>"; };
 		D52CC6FC2244902B009389C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D52CC70822449217009389C7 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				D52CC6DA2244902A009389C7 /* AppDelegate.swift */,
-				D52CC6DC2244902A009389C7 /* ViewController.swift */,
 				D52CC6DE2244902A009389C7 /* Main.storyboard */,
 				D52CC6E12244902B009389C7 /* Assets.xcassets */,
 				D52CC6E32244902B009389C7 /* LaunchScreen.storyboard */,
 				D52CC6E62244902B009389C7 /* Info.plist */,
+				D52CC70822449217009389C7 /* ColorPickerViewController.swift */,
 			);
 			path = "Color Picker";
 			sourceTree = "<group>";
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D52CC6DD2244902A009389C7 /* ViewController.swift in Sources */,
+				D52CC70922449217009389C7 /* ColorPickerViewController.swift in Sources */,
 				D52CC6DB2244902A009389C7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
